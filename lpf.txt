@@ -1,0 +1,83 @@
+enter the passband freq : 0.3
+enter the stopband freq : 0.4
+enter the passband attenuation in dB: 2
+enter the stopband attenuation in dB: 14
+order = 
+     4
+
+cut-off freq = 
+    0.3000
+
+  tf with properties:
+
+            num: {[0.0062 0.0248 0.0373 0.0248 0.0062]}
+            den: {[1 -2.5588 3.0624 -1.8898 0.5113]}
+       Variable: 's'
+        ioDelay: 0
+     InputDelay: 0
+    OutputDelay: 0
+             Ts: 0
+       TimeUnit: 'seconds'
+      InputName: {''}
+      InputUnit: {''}
+     InputGroup: [1x1 struct]
+     OutputName: {''}
+     OutputUnit: {''}
+    OutputGroup: [1x1 struct]
+           Name: ''
+          Notes: {}
+       UserData: []
+
+
+b1 =
+
+    0.0086   -0.0311    0.0422   -0.0254    0.0058
+
+
+a1 =
+
+    1.0000   -4.2577    6.8048   -4.8385    1.2915
+
+bilinear technique
+  tf with properties:
+
+            num: {[0.0086 -0.0311 0.0422 -0.0254 0.0058]}
+            den: {[1 -4.2577 6.8048 -4.8385 1.2915]}
+       Variable: 's'
+        ioDelay: 0
+     InputDelay: 0
+    OutputDelay: 0
+             Ts: 0
+       TimeUnit: 'seconds'
+      InputName: {''}
+      InputUnit: {''}
+     InputGroup: [1x1 struct]
+     OutputName: {''}
+     OutputUnit: {''}
+    OutputGroup: [1x1 struct]
+           Name: ''
+          Notes: {}
+       UserData: []
+
+impulse invariant technique
+  tf with properties:
+
+            num: {[0.0047 -0.0146 0.0159 -0.0068 8.0235e-04]}
+            den: {[1 -4.2578 6.8051 -4.8388 1.2916]}
+       Variable: 's'
+        ioDelay: 0
+     InputDelay: 0
+    OutputDelay: 0
+             Ts: 0
+       TimeUnit: 'seconds'
+      InputName: {''}
+      InputUnit: {''}
+     InputGroup: [1x1 struct]
+     OutputName: {''}
+     OutputUnit: {''}
+    OutputGroup: [1x1 struct]
+           Name: ''
+          Notes: {}
+       UserData: []
+
+>> 
